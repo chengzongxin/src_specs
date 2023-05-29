@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'elvis' => 'elvis.peng@corp.to8to.com' }
-  s.source           = { :git => 'http://repo.we.com/tubroker/timkit.git', :commit => 'e3e78e46' }
+  s.source           = { :git => 'http://repo.we.com/tubroker/timkit.git', :commit => 'd3d0e842' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   
   s.ios.deployment_target = '8.0'
