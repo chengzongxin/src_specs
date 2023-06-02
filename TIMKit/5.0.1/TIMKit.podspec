@@ -80,6 +80,7 @@ Pod::Spec.new do |s|
     kit.dependency 'Aspects', '1.4.1'
     kit.dependency 'TMToast'
     kit.dependency 'Lottie', '2.5.3'
+    kit.dependency 'THKLocationManager', '1.0.0'
 
   end
   
