@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TIMKit'
-  s.version          = '5.0.0'
-  s.summary          = '用于业务组件库分支'
+  s.version          = '4.0.10'
+  s.summary          = 'A short description of TIMKit.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'elvis' => 'elvis.peng@corp.to8to.com' }
-  s.source           = { :git => 'http://repo.we.com/tubroker/timkit.git', :commit => 'e3e78e46' }
+  s.source           = { :git => 'http://repo.we.com/tubroker/timkit.git', :commit => 'd9e0a595' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   
   s.ios.deployment_target = '8.0'
@@ -75,11 +75,13 @@ Pod::Spec.new do |s|
     
     kit.dependency 'MGSwipeTableCell', '1.6.11'
     kit.dependency 'GKPhotoBrowser/YY', '~> 2.0.0'
-    kit.dependency 'Godeye'
+    kit.dependency 'Godeye', "1.1.1"
 
     kit.dependency 'Aspects', '1.4.1'
     kit.dependency 'TMToast'
     kit.dependency 'Lottie', '2.5.3'
+    kit.dependency 'YYImage/WebP'
+    kit.dependency 'IQKeyboardManager'
 
   end
   
